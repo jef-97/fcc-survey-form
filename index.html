@@ -14,18 +14,18 @@
 
     <form id="survey-form">
         <div class="form-group">
-            <label for="name">Name</label>
+            <label id="name-label" for="name">Name</label>
             <input id="name" name="name" type="text" placeholder="Enter your name" required>
         </div>
         <div class="form-group">
-            <label for="email">Email</label>
+            <label id="email-label" for="email">Email</label>
             <input id="email" name="email" type="email" placeholder="Enter your email" required>
         </div>
         <div class="form-group">
-        	<label for="number">Age (optional)</label>
-        	<input id="number" name="number" type="number" placeholder="Age">
+        	<label id="number-label" for="number">Age (optional)</label>
+        	<input id="number" name="number" type="number" placeholder="Age" min="1" max="99">
         </div>
-        
+
     </form>
 </main>
     
