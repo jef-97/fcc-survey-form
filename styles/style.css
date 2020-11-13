@@ -80,3 +80,13 @@ label {
 .input-checkbox {
     margin-right: 10px;
 }
+
+.input-textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    font-size: inherit;
+    font-family: inherit;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
