@@ -90,3 +90,14 @@ label {
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+.submit-button {
+    width: 100%;
+    min-height: 50px;
+    font-size: inherit;
+    font-family: inherit;
+    text-align: center;
+    color: #fff;
+    background-color: #37af65;
+    border: none;
+}
